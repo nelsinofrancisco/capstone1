@@ -269,17 +269,16 @@ body {
 
 .program-img-1,
 .program-img-2,
-.program-img-4 {
-  width: 180px;
-  height: 76.5px;
-}
-
+.program-img-4,
 .program-img-3,
 .program-img-5,
 .program-img-6,
 .program-img-7 {
-  width: 180px;
-  height: 69.75px;
+  width: 80px;
+}
+
+.program-title {
+  font-size: 12px;
 }
 
 .program-out-container {
@@ -303,7 +302,7 @@ body {
 }
 
 .films-container {
-  padding: 2.5rem 1rem;
+  padding: 2.5rem 1rem 1.5rem 1rem;
 }
 
 .poster {
@@ -341,7 +340,7 @@ body {
 /* Footer */
 .footer-container {
   padding: 2rem 0;
-  background-color: #fff;
+  background-color: var(--main-bc);
 }
 
 .footer-logo {
@@ -513,6 +512,10 @@ body {
     margin-top: 1rem;
   }
 
+  .program-title {
+    font-size: 18px;
+  }
+
   .see-more-desk {
     display: block;
     text-decoration: underline;
@@ -521,6 +524,16 @@ body {
 
   .see-more-desk:hover {
     cursor: pointer;
+  }
+
+  .program-img-1,
+  .program-img-2,
+  .program-img-4,
+  .program-img-3,
+  .program-img-5,
+  .program-img-6,
+  .program-img-7 {
+    width: 250px;
   }
 
   /* Films Section */

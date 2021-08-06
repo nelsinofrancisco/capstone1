@@ -1,65 +1,55 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Capstone HTML/CSS
 
-> One paragraph statement about the project.
+> This is the last project for the first Module at Microverse! In this Project I had to build two pages using a template made by [Cindy Shin](https://www.behance.net/adagio07).
 
-![screenshot](./app_screenshot.png)
+![screenshot](https://i.imgur.com/EtVDjzM.png)![screenshot](https://i.imgur.com/TL5O9IA.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://nelsinofrancisco.github.io/capstone1/)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Git Installed
+- Node.js Installed for setting up linters;
+
 ### Setup
+
+- Use `git clone https://github.com/nelsinofrancisco/capstone1` to clone my repo;
 
 ### Install
 
-### Usage
+- It's recommend for you to install the linters provided by Microverse, so in the linters.yml file that's inside the .github/worksflows folder you can get the commands to install locally the linters.
 
 ### Run tests
 
+- Inside linters.yml file you have instructions to run tests locally, but they're runned when you make a push to github too.
+
 ### Deployment
 
+- Page is deployed using GitHub Pages
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Nelsino Francisco**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+- GitHub: [@nelsinofrancisco](https://github.com/nelsinofrancisco)
 
 ## Show your support
 
@@ -67,10 +57,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+- [Cindy Shin](https://www.behance.net/adagio07) for providing a free template for non-comercial uses in behance.

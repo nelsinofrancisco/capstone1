@@ -252,6 +252,10 @@ body {
   margin-bottom: calc(32px * 2);
 }
 
+.mail-link {
+  text-decoration: none;
+}
+
 .headline-pbox {
   border: 2px solid #fff;
   padding: 1rem;
@@ -319,12 +323,16 @@ body {
 
 /* Footer */
 .footer-container {
-  padding: 2rem 0;
-  background-color: #fff;
+  padding: 2rem 1rem;
+  background-color: var(--dark-bc);
 }
 
-.footer-logo {
-  width: 125px;
+.footer-text-logo {
+  margin-right: 3rem;
+}
+
+.footer-text {
+  margin-bottom: 0.5rem;
 }
 
 /* Menu popup */
@@ -506,21 +514,13 @@ body {
   }
 
   /* Footer Section */
-  .footer-container {
-    justify-content: space-around;
-  }
-
   .footer-logo {
     width: 250px;
   }
 
-  .footer-text-container {
-    flex-direction: row;
-  }
-
   .footer-text {
     font-size: 18px;
-    color: var(--darkgrey-color);
+    color: #fff;
     margin-right: 1rem;
   }
 
