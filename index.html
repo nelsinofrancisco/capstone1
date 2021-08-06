@@ -17,10 +17,25 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./css/main.css" />
-    <title>Document</title>
+    <title>MicroAnt Film Festival</title>
   </head>
   <body>
-   
+    <section id="menu-popup" class="menu-popup absolute d-none">
+      <div id="pop-up-container" class="popup-container"> 
+        <div id="close-menu-btn">
+          <i class="close-menu-btn fas fa-times fa-2x fc-white mb-2"></i>
+        </div>
+        <ul class="popup-ul mt-2 pl-1">
+          <li><a href="./index.html" class="popup-li-item default-family fc-white fs-18 fw-700 mb-2 relative">Home</a></li>
+          <li><a href="./about.html" class="popup-li-item default-family fc-white fs-18 fw-700 mb-2 relative">About</a></li>
+          <li><a href="#" class="popup-li-item default-family fc-white fs-18 fw-700 mb-2 relative">Program</a></li>
+          <li><a href="#" class="popup-li-item default-family fc-white fs-18 fw-700 mb-2 relative">Join</a></li>
+          <li><a href="#" class="popup-li-item default-family fc-white fs-18 fw-700 mb-2 relative">Sponsor</a></li>
+          <li><a href="#" class="popup-li-item default-family fc-white fs-18 fw-700 mb-2 relative">News</a></li>
+          <li><a href="#" class="popup-li-item default-family fc-white fs-18 fw-700 mb-2 relative">Micro Ant Campain</a></li>
+        </ul>
+      </div>
+    </section>
     <section id="nav-section" class="nav-section">
       <div class="nav-social-container bc-dark d-flex d-justify-center d-none">
         <ul class="nav-social desk-w d-flex d-justify-end">
@@ -39,12 +54,12 @@
         <div class="nav-list-container bc-white d-flex d-justify-between d-align-center d-none desk-w">
           <a href="./index.html"><img class="nav-logo" src="./img/logos/ant_logo.png" alt=""></a>
           <ul class="nav-list d-justify-between d-align-center d-none">
-            <li class="default-family fc-orange fw-700">About</li>
-            <li class="default-family fc-darkgrey fw-700">Program</li>
-            <li class="default-family fc-darkgrey fw-700">Join</li>
-            <li class="default-family fc-darkgrey fw-700">Sponsor</li>
-            <li class="default-family fc-darkgrey fw-700">News</li>
-            <li class="nav-list-item-btn default-family fc-orange fw-700">MicroAnt Campain</li>
+            <li><a class="nav-links default-family fc-orange fw-700" href="./about.html">About</a></li>
+            <li><a class="nav-links default-family fc-darkgrey fw-700" href="#">Program</a></li>
+            <li><a class="nav-links default-family fc-darkgrey fw-700" href="#">Join</a></li>
+            <li><a class="nav-links default-family fc-darkgrey fw-700" href="#">Sponsor</a></li>
+            <li><a class="nav-links default-family fc-darkgrey fw-700" href="#">News</a></li>
+            <li><a class="nav-links nav-list-item-btn default-family fc-orange fw-700" href="#">MicroAnt Campain</a></li>
           </ul>
         </div>
       </nav>
@@ -82,7 +97,6 @@
     </section>
 
     <main id="main-section">
-
       <section id="main-program" class="main-program">
 
         <div id="programs-out-container" class="programs-out-container d-flex d-column d-align-center">
@@ -105,7 +119,7 @@
               id="program-1"
               class="
                 program-container
-                d-flex d-justify-around d-align-center
+                d-flex d-justify-between d-align-center
                 mb-1
               "
             >
@@ -125,7 +139,7 @@
               id="program-2"
               class="
                 program-container
-                d-flex d-justify-around d-align-center
+                d-flex d-justify-between d-align-center
                 mb-1
               "
             >
@@ -141,7 +155,7 @@
               id="program-3"
               class="
                 program-container
-                d-flex d-justify-around d-align-center
+                d-flex d-justify-between d-align-center
                 mb-1
               "
             >
@@ -161,7 +175,7 @@
               id="program-4"
               class="
                 program-container
-                d-flex d-justify-around d-align-center
+                d-flex d-justify-between d-align-center
                 mb-1
               "
             >
@@ -181,7 +195,7 @@
               id="program-5"
               class="
                 program-container
-                d-flex d-justify-around d-align-center
+                d-flex d-justify-between d-align-center
                 mb-1
               "
             >
@@ -197,7 +211,7 @@
               id="program-6"
               class="
                 program-container
-                d-flex d-justify-around d-align-center
+                d-flex d-justify-between d-align-center
                 mb-1
               "
             >
@@ -216,7 +230,7 @@
               id="program-7"
               class="
                 program-container
-                d-flex d-justify-around d-align-center
+                d-flex d-justify-between d-align-center
                 mb-1
               "
             >
@@ -235,197 +249,8 @@
           <h2 id="see-more-desk" class="d-none see-more-desk default-family fs-16 fc-white fw-700 mt-2">See The Whole Program</h2>
         </div>
       </section>
-      
-      <section id="main-films" class="main-films">
-        <div
-          id="films-container"
-          class="films-container d-flex d-column d-align-center desk-w"
-        >
-          <h2 class="default-family fc-darkgrey fw-900 fs-24">
-            Featured Films
-          </h2>
-          <span class="primary-bdb mt-1 mb-2"></span>
-          <div
-            id="film-container"
-            class="film-div-container d-wrap d-flex d-column d-align-center"
-          >
-            <div id="film-container-1" class="film-container d-flex mb-2">
-              <img
-                id="poster-1"
-                class="poster"
-                src="./img/posters/fight_club_poster.jpg"
-                alt=""
-              />
-              <div
-                id="film-txt-container-1"
-                class="film-text-container d-flex d-column d-justify-between"
-              >
-                <h3 class="film-title default-family fc-darkgrey fs-18 mb-1">
-                  Fight Club
-                </h3>
-                <h4 class="film-author default-family fc-orange fs-14 mb-1">
-                  David Fincher - 1999
-                </h4>
-                <span class="secundary-bdb mb-1"></span>
-                <h4 class="film-p default-family fc-darkgrey fs-12 fw-300 mb-1">
-                  "An insomniac office worker and a devil-may-care soap maker
-                  form an underground fight club that evolves into much more." —
-                  Imdb
-                </h4>
-              </div>
-            </div>
-            <div id="film-container-2" class="film-container d-flex mb-2">
-              <img
-                id="poster-2"
-                class="poster"
-                src="./img/posters/old_boy_poster.jpg"
-                alt=""
-              />
-              <div
-                id="film-txt-container-2"
-                class="film-text-container d-flex d-column d-justify-between"
-              >
-                <h3 class="film-title default-family fc-darkgrey fs-18 mb-1">Old Boy</h3>
-                <h4 class="film-author default-family fc-orange fs-14 mb-1">
-                  Park Chan-Wook - 2003
-                </h4>
-                <span class="secundary-bdb mb-1"></span>
-                <h4 class="film-p default-family fc-darkgrey fs-12 fw-300 mb-1">
-                  "After being kidnapped and imprisoned for fifteen years, Oh
-                  Dae-Su is released, only to find that he must find his captor
-                  in five days." — Imdb
-                </h4>
-              </div>
-            </div>
-            <div id="film-container-3" class="film-container d-flex mb-2">
-              <img
-                id="poster-3"
-                class="poster"
-                src="./img/posters/eternal_sunshine_poster.jpg"
-                alt=""
-              />
-              <div
-                id="film-txt-container-3"
-                class="film-text-container d-flex d-column d-justify-between"
-              >
-                <h3 class="film-title default-family fc-darkgrey fs-18 mb-1">
-                  Eternal Sunshine of the Spotless Mind
-                </h3>
-                <h4 class="film-author default-family fc-orange fs-14 mb-1">
-                  Michel Gondry - 2004
-                </h4>
-                <span class="secundary-bdb mb-1"></span>
-                <h4 class="film-p default-family fc-darkgrey fs-12 fw-300 mb-1">
-                  "When their relationship turns sour, a couple undergoes a
-                  medical procedure to have each other erased from their
-                  memories." — Sarah McAuley
-                </h4>
-              </div>
-            </div>
-            <div id="film-container-4" class="film-container d-flex mb-2">
-              <img
-                id="poster-4"
-                class="poster"
-                src="./img/posters/truman_show.jpg"
-                alt=""
-              />
-              <div
-                id="film-txt-container-4"
-                class="film-text-container d-flex d-column d-justify-between"
-              >
-                <h3 class="film-title default-family fc-darkgrey fs-18 mb-1">
-                  The Truman Show
-                </h3>
-                <h4 class="film-author default-family fc-orange fs-14 mb-1">
-                  Peter Weir - 1998
-                </h4>
-                <span class="secundary-bdb mb-1"></span>
-                <h4 class="film-p default-family fc-darkgrey fs-12 fw-300 mb-1">
-                  "An insurance salesman discovers his whole life is actually a
-                  reality TV show." — BCDavis
-                </h4>
-              </div>
-            </div>
-            <div id="film-container-5" class="film-container d-flex mb-2">
-              <img
-                id="poster-5"
-                class="poster"
-                src="./img/posters/arrival_poster.jpg"
-                alt=""
-              />
-              <div
-                id="film-txt-container-5"
-                class="film-text-container d-flex d-column d-justify-between"
-              >
-                <h3 class="film-title default-family fc-darkgrey fs-18 mb-1">Arrival</h3>
-                <h4 class="film-author default-family fc-orange fs-14 mb-1">
-                  Denis Villeneuve - 2016
-                </h4>
-                <span class="secundary-bdb mb-1"></span>
-                <h4 class="film-p default-family fc-darkgrey fs-12 fw-300 mb-1">
-                  "A linguist works with the military to communicate with alien
-                  lifeforms after twelve mysterious spacecraft appear around the
-                  world." — Noah Orent
-                </h4>
-              </div>
-            </div>
-            <div id="film-container-6" class="film-container d-flex mb-2">
-              <img
-                id="poster-6"
-                class="poster"
-                src="./img/posters/prometheus_poster.jpg"
-                alt=""
-              />
-              <div
-                id="film-txt-container-6"
-                class="film-text-container d-flex d-column d-justify-between"
-              >
-                <h3 class="film-title default-family fc-darkgrey fs-18 mb-1">
-                  Prometheus
-                </h3>
-                <h4 class="film-author default-family fc-orange fs-14 mb-1">
-                  Ridley Scott - 2012
-                </h4>
-                <span class="secundary-bdb mb-1"></span>
-                <h4 class="film-p default-family fc-darkgrey fs-12 fw-300 mb-1">
-                  "Following clues to the origin of mankind, a team finds a
-                  structure on a distant moon, but they soon realize they are
-                  not alone." - Imdb
-                </h4>
-              </div>
-            </div>
-            <div id="film-container-7" class="film-container d-flex mb-2">
-              <img
-                id="poster-7"
-                class="poster"
-                src="./img/posters/the_lobster.jpg"
-                alt=""
-              />
-              <div
-                id="film-txt-container-7"
-                class="film-text-container d-flex d-column d-justify-between"
-              >
-                <h3 class="film-title default-family fc-darkgrey fs-18 mb-1">
-                  The Lobster
-                </h3>
-                <h4 class="film-author default-family fc-orange fs-14 mb-1">
-                  Yorgos Lanthimos - 2015
-                </h4>
-                <span class="secundary-bdb mb-1"></span>
-                <h4 class="film-p default-family fc-darkgrey fs-12 fw-300 mb-1">
-                  "In a dystopian near future, single people, according to the
-                  laws of The City, are taken to The Hotel, where they are
-                  obliged to find a romantic partner in forty-five days or are
-                  transformed into beasts and sent off into The Woods.
-                  —Wikipedia and Brian McInnis
-                </h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </main>
-    <section id="partners-section" class="partners-section">
+    <section id="partners-section" class="partners-section d-none display-desk">
       <div id="partners-container" class="partners-container d-flex d-column d-align-center">
         <h2 class="default-family fs-24 fw-700 fc-white mb-1">Partners</h2>
         <span class="primary-bdb mb-1"></span>
@@ -438,7 +263,7 @@
         </div>
       </div>
     </section>
-    <footer>
+    <footer id="footer-section" class="d-none display-desk">
       <div id="footer-container" class="footer-container d-flex d-justify-center">
         <img class="footer-logo mr-1" src="./img/logos/ant_logo.png" alt="" />
         <div id="footer-text-container" class="footer-text-container d-inline-flex d-column d-align-center d-justify-center">
@@ -447,7 +272,14 @@
         </div>
       </div>
     </footer>
+    <section id="see-more-mob-section" class="see-more-mob-section bc-white d-none-desk">
+      <div id="see-more-mob" class="see-more-mob d-flex d-justify-center d-align-center"> 
+        <h2 id="see-more-txt" class="default-family fs-18 fw-700 fc-darkgrey mr-1">See More</h2>
+        <i id="chevron-up" class="fas fa-chevron-down fc-orange"></i>
+        <i id="chevron-down" class="fas fa-chevron-up fc-orange d-none"></i>
+      </div>
 
+    </section>
     <script src="./scripts/main.js"></script>
   </body>
 </html>

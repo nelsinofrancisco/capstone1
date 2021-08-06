@@ -4,13 +4,28 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>MicroAnt Film Festival</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous"/>
   <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./css/about.css">
 </head>
 <body>
-  
+  <section id="menu-popup" class="menu-popup absolute d-none">
+    <div id="pop-up-container" class="popup-container"> 
+      <div id="close-menu-btn">
+        <i class="close-menu-btn fas fa-times fa-2x fc-white mb-2"></i>
+      </div>
+      <ul class="popup-ul mt-2 pl-1">
+        <li><a href="./index.html" class="popup-li-item default-family fc-white fs-18 fw-700 mb-2 relative">Home</a></li>
+        <li><a href="./about.html" class="popup-li-item default-family fc-white fs-18 fw-700 mb-2 relative">About</a></li>
+        <li><a href="#" class="popup-li-item default-family fc-white fs-18 fw-700 mb-2 relative">Program</a></li>
+        <li><a href="#" class="popup-li-item default-family fc-white fs-18 fw-700 mb-2 relative">Join</a></li>
+        <li><a href="#" class="popup-li-item default-family fc-white fs-18 fw-700 mb-2 relative">Sponsor</a></li>
+        <li><a href="#" class="popup-li-item default-family fc-white fs-18 fw-700 mb-2 relative">News</a></li>
+        <li><a href="#" class="popup-li-item default-family fc-white fs-18 fw-700 mb-2 relative">Micro Ant Campain</a></li>
+      </ul>
+    </div>
+  </section>
   <section id="nav-section" class="nav-section">
     <div class="nav-social-container bc-dark d-flex d-justify-center d-none">
       <ul class="nav-social desk-w d-flex d-justify-end">
@@ -23,18 +38,18 @@
     </div>
 
     <nav id="navbar" class="nav-bar">
-      <div id="bars-menu" class="bars-menu">
+      <div id="bars-menu" class="bars-menu d-none-desk">
         <i class="fas fa-bars fa-2x"></i>
       </div>
       <div class="nav-list-container bc-white d-flex d-justify-between d-align-center d-none desk-w">
         <a href="./index.html"><img class="nav-logo" src="./img/logos/ant_logo.png" alt=""></a>
         <ul class="nav-list d-justify-between d-align-center d-none">
-          <li class="default-family fc-orange fw-700">About</li>
-          <li class="default-family fc-darkgrey fw-700">Program</li>
-          <li class="default-family fc-darkgrey fw-700">Join</li>
-          <li class="default-family fc-darkgrey fw-700">Sponsor</li>
-          <li class="default-family fc-darkgrey fw-700">News</li>
-          <li class="nav-list-item-btn default-family fc-orange fw-700">MicroAnt Campain</li>
+          <li><a class="nav-links default-family fc-orange fw-700" href="./about.html">About</a></li>
+          <li><a class="nav-links default-family fc-darkgrey fw-700" href="#">Program</a></li>
+          <li><a class="nav-links default-family fc-darkgrey fw-700" href="#">Join</a></li>
+          <li><a class="nav-links default-family fc-darkgrey fw-700" href="#">Sponsor</a></li>
+          <li><a class="nav-links default-family fc-darkgrey fw-700" href="#">News</a></li>
+          <li><a class="nav-links nav-list-item-btn default-family fc-orange fw-700" href="#">MicroAnt Campain</a></li>
         </ul>
       </div>
     </nav>
@@ -123,5 +138,6 @@
       </div>
     </div>
   </footer>
+  <script src="./scripts/about.js"></script>
 </body>
 </html>
