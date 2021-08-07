@@ -49,11 +49,6 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Nelsino Francisco**
 
-- GitHub: [@nelsinofrancisco](https://github.com/nelsinofrancisco)
-
-## Loom Video 
-
-- Here's my [video](https://www.loom.com/share/2f8efa608cdd4ae8ae66c5846e0ddb70) explaining all features added.
 
 ## Show your support
 
