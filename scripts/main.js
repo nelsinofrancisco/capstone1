@@ -171,11 +171,13 @@ window.addEventListener('resize', () => {
 mobileMenuOpenBtn.addEventListener('click', () => {
   menuPopupSection.classList.toggle('d-none');
   navSection.classList.toggle('d-none');
+  document.querySelector('html').style.overflowY = 'hidden';
 });
 
 mobileMenuCloseBtn.addEventListener('click', () => {
   menuPopupSection.classList.toggle('d-none');
   navSection.classList.toggle('d-none');
+  document.querySelector('html').style.overflowY = 'auto';
 });
 
 allPopupItems.forEach((element) => {
