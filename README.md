@@ -49,7 +49,6 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Nelsino Francisco**
 
-- GitHub: [@nelsinofrancisco](https://github.com/nelsinofrancisco)
 
 ## Show your support
 
